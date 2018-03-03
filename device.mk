@@ -17,11 +17,11 @@
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/PDesire/tetra/overlay
+DEVICE_PACKAGE_OVERLAYS += device/sony/tetra/overlay
 
-LOCAL_PATH := device/PDesire/tetra
+LOCAL_PATH := device/sony/tetra
 
-$(call inherit-product, vendor/PDesire/tetra/tetra-vendor.mk)
+$(call inherit-product, vendor/sony/tetra/tetra-vendor.mk)
         
 PRODUCT_COPY_FILES +=  device/google/clockwork/bootanimations/square_320/bootanimation.zip:system/media/bootanimation.zip
 
@@ -73,4 +73,4 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
-$(call inherit-product, device/PDesire/tetra/build/clockwork_tetra.mk)
+$(call inherit-product, device/sony/tetra/build/clockwork_tetra.mk)

@@ -26,7 +26,7 @@ PRODUCT_RELEASE_NAME := tetra
 $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/PDesire/tetra/device.mk)
+$(call inherit-product, device/sony/tetra/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tetra

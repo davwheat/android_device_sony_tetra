@@ -1,2 +1,2 @@
-#line 1 "device/PDesire/tetra/sepolicy/service_contexts"
+#line 1 "device/sony/tetra/sepolicy/service_contexts"
 crashmonitornative u:object_r:crashmonitor_service:s0

@@ -1,4 +1,4 @@
-#line 1 "device/PDesire/tetra/sepolicy"
+#line 1 "device/sony/tetra/sepolicy"
 # GPU
 /dev/mm_v3d                     u:object_r:gpu_device:s0
 /dev/mm_interlock               u:object_r:gpu_device:s0
