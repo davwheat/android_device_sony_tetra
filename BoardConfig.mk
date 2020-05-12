@@ -77,7 +77,7 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive enforcing=0
 BOARD_KERNEL_BASE := 0x85000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_KERNEL_SOURCE := kernel/tetra
+TARGET_KERNEL_SOURCE := kernel/sony/tetra
 TARGET_KERNEL_CONFIG := tetra_defconfig
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
@@ -112,9 +112,9 @@ MALLOC_SVELTE := true
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
-BOARD_SEPOLICY_DIRS += build/target/board/generic/sepolicy
-BOARD_SEPOLICY_DIRS += device/sony/tetra/sepolicy
-BOARD_SEPOLICY_DIRS += device/google/clockwork/sepolicy
+#BOARD_SEPOLICY_DIRS += build/target/board/generic/sepolicy
+#BOARD_SEPOLICY_DIRS += device/sony/tetra/sepolicy
+#BOARD_SEPOLICY_DIRS += device/google/clockwork/sepolicy
 
 # Resolution
 DEVICE_RESOLUTION := 320x320
